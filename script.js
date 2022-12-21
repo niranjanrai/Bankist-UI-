@@ -52,3 +52,14 @@ console.log(getComputedStyle(message).height);
 header.prepend(message);
 
 document.documentElement.style.setProperty('--color-primary', 'orangered');
+
+// Attributes
+const logo = document.querySelector('.nav__logo');
+console.log(logo.alt);
+console.log(logo.src);
+console.log(logo.className);
+
+console.log(logo.designer);
+console.log(logo.getAttribute('designer'));
+logo.setAttribute('main', 'rai');
+console.log(logo.getAttribute('main'));
