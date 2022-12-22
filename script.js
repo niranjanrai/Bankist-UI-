@@ -61,5 +61,6 @@ console.log(logo.className);
 
 console.log(logo.designer);
 console.log(logo.getAttribute('designer'));
+logo.alt = 'a minimilist logo000000000000000000000000000000';
 logo.setAttribute('main', 'rai');
 console.log(logo.getAttribute('main'));
