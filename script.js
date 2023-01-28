@@ -51,7 +51,7 @@ console.log(getComputedStyle(message));
 console.log(getComputedStyle(message).height);
 header.prepend(message);
 
-document.documentElement.style.setProperty('--color-primary', 'orangered');
+// document.documentElement.style.setProperty('--color-primary', 'orangered');
 
 // Attributes
 const logo = document.querySelector('.nav__logo');
